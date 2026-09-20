@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# Kaleido
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+**Classification:** Independent Project · Study Project
 
-Try running some of the following tasks:
+A small Hardhat/EVM study project used to practice Solidity project structure, tests, and deployment scripts. It is based on a standard Hardhat scaffold and is not presented as a production protocol or audited contract system.
 
-```shell
-npx hardhat help
+## Development
+
+Requirements: Node.js and npm.
+
+```bash
+npm install
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat help
 ```
+
+Additional local-node and Ignition commands are available in the project scaffold.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+## Author
+
+Lello Tereciani
